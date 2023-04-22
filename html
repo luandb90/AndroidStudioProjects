@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Luan Dias</title>
+</head>
+<body>
+ 
+<!--Parte de cima (cabeçalho )-->
+    <div class="container">
+        <header class="header">
+ 
+        <a href="#">sobre mim</a>
+        <a href="#">projetos</a>
+        <a href="#">contatos</a>
+    </header>
+    </div>
+<!--Tudo que esta no meio -->
+<div class="meio">
+<main class="main">
+    <h2>Me chamo Luan Dias.</h2>
+    
+    <br>
+    <h5>Estudante de Engenharia de Software -
+    UNICID 1/8 </h5>
+    <br>
+    <h6>Click em SOBRE MIM para me conhecer melhor.</h6>
+    
+    </main>
+<!--Imagem-->
+<div class="imagem"> <img src="Luan.webp" alt="">
+</div>
+</div>   
+</main>
+
+<!--Ultima parte-->
+    <footer class="footer">
+        <hr />
+        
+    </footer>
+</div>
+
+</body>
+</html>
+
+
+
+*{
+    margin: 0;
+    
+}
+
+   
+body{
+    background: linear-gradient(270deg, #000000, #181b2b, #636f80);
+    width: 1200;
+
+}
+
+.header{
+    width: -500px;
+    height: center;
+}
+
+
+.container{
+    
+    margin:  100px;
+    padding: auto;
+    margin-top: 4%;
+
+    margin-left: 900px;
+   
+}
+
+.main{
+    width: 600px;
+    margin-left: 120px;
+    margin-top: 200px;
+    color: #e6cda5; 
+    font-size: 80px;
+    font: small-caps 35px verdana;
+    
+}
+
+img{
+    width: 500px;
+    margin-left:700px;
+    margin-top: -22%;
+
+}
+
+a{
+    color: #e6cda5;
+    font: small-caps 25px verdana;
+    position: inherit;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+a:hover{
+    color: #e0e7ef;
+    
+}
+
+.meio{
+    width: 1366px;
+    height: 769px;
+}
+
+footer{
+    background: #000000;
+    color: #e0e7ef;
+    height:60px;
+    width: auto;
+    margin-left: -10px;
+    margin-right: auto;
+    text-align: center;
+    bottom: 0%;
+    margin-top: -122px;
+    
+
+}
+
+
+@keyframes digitando{
+    from{
+        width: 0;
+    }
+}
+
+@keyframes piscando {
+    50%{
+        border-color: transparent;
+    }
+}
+
+
+h2{
+    border-right: 4px solid;
+    width: 17ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: digitando 5s infinite ,
+    piscando 0.2s infinite step-end
+    alternate; 
+}
+
+h6{
+    color: #e0e7ef;
+}
+
+
+
+
+
+
+
+
+
